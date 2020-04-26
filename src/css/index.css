@@ -10,4 +10,18 @@
   justify-content: center;
 }
 
+#adder {
+  position: absolute;
+  bottom: 2.3em;
+  right: 2em;
+}
+#adder a {
+  width: 80px;
+  height: 80px;
+}
+#adder a i {
+  font-size: 4rem;
+  line-height: 81px;
+}
+
 /*# sourceMappingURL=index.css.map */
