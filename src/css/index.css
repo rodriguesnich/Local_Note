@@ -6,8 +6,8 @@
 
 #tit {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=index.css.map */
