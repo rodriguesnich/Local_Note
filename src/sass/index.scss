@@ -1,17 +1,14 @@
 * {
 	padding: 0px;
 	box-sizing: border-box;
+	margin: 0px;
 }
 
-#but {
-	position: relative;
-	right: 9px;
-	top: 9px;
-}
+.close {
+	display: flex; 
+	justify-content: center;
+  	align-items: center;
+ }
 
 #tit {
-	width: 52.9vh;
-	position: relative;
-	top: -24.5px;
-	left: -12.6px;
 }
