@@ -1,0 +1,17 @@
+@import url(./reset.css);
+@import url(./_variables.css);
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.over_container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
