@@ -10,7 +10,16 @@ import {
 } from "react-router-dom";
 
 function Header(props) {
-  let match = useRouteMatch();
+  let button;
+  if (props.search) {
+    button = <button>p</button>;
+  } else {
+    button = (
+      <button>
+        <Link to={`/${props.url}`}>s</Link>
+      </button>
+    );
+  }
 
   return (
     <div className="App container">
@@ -19,9 +28,7 @@ function Header(props) {
         <button>
           <Link to={`/`}>Local_Note</Link>
         </button>
-        <button>
-          <Link to={`/${props.url}`}>s</Link>
-        </button>
+        {button}
       </header>
       <br />
     </div>
