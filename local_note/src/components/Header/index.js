@@ -16,7 +16,7 @@ function Header(props) {
   } else {
     button = (
       <button>
-        <Link to={`/${props.url}`}>s</Link>
+        <Link to={`/${props.url}/${props.index}`}>s</Link>
       </button>
     );
   }

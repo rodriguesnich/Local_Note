@@ -9,19 +9,16 @@ import {
 
 import "./style.css";
 
-function Note() {
+function Note(props) {
   return (
     <div className="Note container">
-      <Link to={`/over`}>
-        {" "}
+      <Link to={`/over/${props.index}`}>
         <section className="note">
-          <h1>
-            Mussum Ipsum, cacilds vidis litro abertis. Nullam volutpat risus nec
-            leo commodo,
-          </h1>
+          <h1>{props.title}</h1>
           <br />
-          <h6>May 21, 2020</h6>
+          <h6>{props.dateTime}</h6>
         </section>
+        <br />
       </Link>
     </div>
   );
