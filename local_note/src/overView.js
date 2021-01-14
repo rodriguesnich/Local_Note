@@ -35,7 +35,7 @@ class OverView extends React.Component {
   render() {
     return (
       <div className="container">
-        <Header url="create" index={this.index} />
+        <Header url="create" index={this.index} name="editar" />
         <br />
         <main className="body container">
           <section className="tittle">
