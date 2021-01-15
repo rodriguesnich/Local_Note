@@ -1,5 +1,4 @@
 {
-  "homepage": "https://rodriguesnich.github.io/Local_Note/",
   "name": "local_note",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d local_note"
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
