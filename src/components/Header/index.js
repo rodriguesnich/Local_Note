@@ -1,18 +1,11 @@
 // import "./css/base.css"
 import "./style.css";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useRouteMatch,
-  useParams,
-} from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 
 function Header(props) {
   let button;
   if (props.search) {
-    button = <button className="seachButton" >search</button>;
+    button = <button className="seachButton">search</button>;
   } else {
     button = (
       <button className="editButton">
