@@ -5,7 +5,7 @@ import "./style.css";
 function Note(props) {
   return (
     <div className="Note">
-      <Link to={`/over/${props.index}`}>
+      <Link to={`/Local_Note/over/${props.index}`}>
         <section className="note">
           <h1>{props.title}</h1>
           <br />

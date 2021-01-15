@@ -39,7 +39,7 @@ class App extends React.Component {
       <div className="App">
         <Header url="over" search={true} />
         <main className="body App-body container">{notes}</main>
-        <Link to={`/create`}>
+        <Link to="/Local_Note/create">
           <button className="button-add">+</button>
         </Link>
       </div>

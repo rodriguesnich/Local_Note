@@ -13,13 +13,13 @@ ReactDOM.render(
     <OverView /> */}
     <Router>
       <Switch>
-        <Route path="/over">
+        <Route path="/Local_Note/over">
           <OverView />
         </Route>
-        <Route path="/create">
+        <Route path="/Local_Note/create">
           <Create />
         </Route>
-        <Route path="/">
+        <Route path="/Local_Note/">
           <App />
         </Route>
       </Switch>
