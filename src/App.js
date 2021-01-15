@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 
 import "./css/base/base.css";
 import "./css/App.css";
@@ -26,7 +26,13 @@ class App extends React.Component {
       console.log("nota", nota + 1, ":", buffer);
       if (buffer === null) {
       } else {
-        notes.push(<Note title={buffer.title} dateTime={buffer.dateTime} index={nota+1} />);
+        notes.push(
+          <Note
+            title={buffer.title}
+            dateTime={buffer.dateTime}
+            index={nota + 1}
+          />
+        );
       }
     }
     return (

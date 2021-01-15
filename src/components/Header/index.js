@@ -26,7 +26,7 @@ function Header(props) {
       <br />
       <header className="header container">
         <button className="mainButton">
-          <Link to={`/`}>Local_Note</Link>
+          <Link to={`/Local_Note`}>Local_Note</Link>
         </button>
         {button}
       </header>

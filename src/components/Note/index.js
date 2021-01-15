@@ -1,11 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useRouteMatch,
-  useParams,
-} from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 
 import "./style.css";
 
