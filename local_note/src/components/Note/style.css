@@ -3,4 +3,5 @@
     width: 100%;
     background-color: var(--note-blue);
     border-radius: 5px;
+    padding: .5rem .5rem;
 }

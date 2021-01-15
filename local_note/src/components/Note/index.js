@@ -11,7 +11,7 @@ import "./style.css";
 
 function Note(props) {
   return (
-    <div className="Note container">
+    <div className="Note">
       <Link to={`/over/${props.index}`}>
         <section className="note">
           <h1>{props.title}</h1>

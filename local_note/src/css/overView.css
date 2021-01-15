@@ -1,12 +1,26 @@
-.tittle {
-    color: var(--white);
+.over {
+  color: var(--white);
+}
+
+.over-title {
+  font-size: 2rem;
+}
+
+.over-dateTime {
+    font-size: .9rem;
+}
+
+.over-text {
+    font-size: 1.3rem;
 }
 
 .button-delete {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    bottom: 40px;
-    right: 40px;
-    border-radius: 100%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 100%;
+  background-color: var(--dark-gray);
+  color: var(--white);
 }

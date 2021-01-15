@@ -30,9 +30,9 @@ class App extends React.Component {
       }
     }
     return (
-      <div className="App container">
+      <div className="App">
         <Header url="over" search={true} />
-        <main className="body container">{notes}</main>
+        <main className="body App-body container">{notes}</main>
         <Link to={`/create`}>
           <button className="button-add">+</button>
         </Link>

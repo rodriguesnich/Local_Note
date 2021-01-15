@@ -38,12 +38,12 @@ class OverView extends React.Component {
         <Header url="create" index={this.index} name="editar" />
         <br />
         <main className="body container">
-          <section className="tittle">
-            <h1>{this.state.title}</h1>
+          <section className="over">
+            <h1 className="over-title">{this.state.title}</h1>
             <br />
-            <h6>{this.state.dateTime}</h6>
+            <h6 className="over-dateTime">{this.state.dateTime}</h6>
             <br />
-            <p>{this.state.text}</p>
+            <p className="over-text">{this.state.text}</p>
           </section>
         </main>
         <button className="button-delete" onClick={this.handleClick}>

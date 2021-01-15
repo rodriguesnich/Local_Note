@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/base/base.css";
+import "./css/Create.css";
 import Header from "./components/Header";
 
 class Create extends React.Component {
@@ -57,21 +58,21 @@ class Create extends React.Component {
 
   render() {
     return (
-      <div className="Create container">
+      <div className="Create ">
         <Header url="over" index={this.index} name="salvar" />
         <main className="body container">
-          {/* <input placeholder="Title" type="text"></input> */}
           <input
             type="text"
             id="title"
+            className="Create-title Create-input"
             placeholder="Title..."
             value={this.state.title}
             onChange={this.handleChange}
           />
-
           <textarea
             type="text"
             id="text"
+            className="Create-text Create-input"
             placeholder="Note..."
             value={this.state.text}
             onChange={this.handleChange}
