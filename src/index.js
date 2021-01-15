@@ -9,17 +9,16 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App />
-    <OverView /> */}
+
     <Router>
       <Switch>
-        <Route path="/Local_Note/over">
+        <Route path="/over">
           <OverView />
         </Route>
-        <Route path="/Local_Note/create">
+        <Route path="/create">
           <Create />
         </Route>
-        <Route path="/Local_Note/">
+        <Route path="/Local_Note">
           <App />
         </Route>
       </Switch>

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./css/base/base.css";
 import "./css/App.css";
@@ -39,9 +39,9 @@ class App extends React.Component {
       <div className="App">
         <Header url="over" search={true} />
         <main className="body App-body container">{notes}</main>
-        <Link to="/Local_Note/create">
-          <button className="button-add">+</button>
-        </Link>
+        <button className="button-add">
+          <Link to="/create">+</Link>
+        </button>
       </div>
     );
   }

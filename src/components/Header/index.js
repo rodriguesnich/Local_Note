@@ -1,6 +1,6 @@
 // import "./css/base.css"
 import "./style.css";
-import { BrowserRouter as Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header(props) {
   let button;
@@ -9,7 +9,7 @@ function Header(props) {
   } else {
     button = (
       <button className="editButton">
-        <Link to={`/Local_Note/${props.url}/${props.index}`}>{props.name}</Link>
+        <Link to={`/${props.url}/${props.index}`}>{props.name}</Link>
       </button>
     );
   }

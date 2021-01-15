@@ -1,11 +1,11 @@
-import { BrowserRouter as Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./style.css";
 
 function Note(props) {
   return (
     <div className="Note">
-      <Link to={`/Local_Note/over/${props.index}`}>
+      <Link to={`/over/${props.index}`}>
         <section className="note">
           <h1>{props.title}</h1>
           <br />
