@@ -34,7 +34,7 @@ class OverView extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="">
         <Header url="create" index={this.index} name="editar" />
         <br />
         <main className="body container">
@@ -47,7 +47,7 @@ class OverView extends React.Component {
           </section>
         </main>
         <button className="button-delete" onClick={this.handleClick}>
-          d
+          -
         </button>
       </div>
     );

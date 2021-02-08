@@ -1,3 +1,8 @@
+@font-face {
+    font-family: button_plus;
+    src: url(../fonts/RussoOne-Regular.ttf);
+  }
+
 .button-add {
     position: absolute;
     width: 50px;
@@ -7,6 +12,8 @@
     border-radius: 100%;
     background-color: var(--dark-gray);
     color: var(--white);
+    font-family: button_plus, sans-serif;
+    font-size: 2rem;
 }
 
 .App-body {}

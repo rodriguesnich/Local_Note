@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Header(props) {
   let button;
   if (props.search) {
-    button = <button className="seachButton">search</button>;
+    button = <button className="seachButton">buscar</button>;
   } else {
     button = (
       <button className="editButton">
