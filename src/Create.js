@@ -53,7 +53,7 @@ class Create extends React.Component {
 
   render() {
     return (
-      <div className="Create ">
+      <div className="Create">
         <Header url="over" index={this.index} name="salvar" />
         <main className="body container">
           <input
