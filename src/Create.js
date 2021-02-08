@@ -32,27 +32,22 @@ class Create extends React.Component {
   }
 
   handleChange(event) {
-    if (event.target.id === "title") {
-      this.setState({ title: event.target.value });
-      console.log("Title: " + this.state.title);
-    } else {
-      this.setState({ text: event.target.value });
-      console.log("Text: " + this.state.text);
-    }
-    var today = new Date(),
-      dateTime =
-        today.getFullYear() +
-        "-" +
-        (today.getMonth() + 1) +
-        "-" +
-        today.getDate();
-    this.setState({ dateTime: dateTime });
-    var note = {
+    let note = {
       title: this.state.title,
       text: this.state.text,
       dateTime: this.state.dateTime,
     };
+    if (event.target.id === "title") {
+      console.log(event.target.value);
+      note.title = event.target.value
+    } else {
+      note.text = event.target.value
+    }
+    var today = new Date(),
+      dateTime = today.getFullYear()+"-"+(today.getMonth()+ 1)+"-"+today.getDate();
+    note.dateTime = dateTime
     console.log(note);
+    this.setState({title: note.title, text: note.text, dateTime: note.dateTime})
     localStorage.setItem(`@local-note/note${this.index}`, JSON.stringify(note));
   }
 
