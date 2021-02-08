@@ -13,6 +13,11 @@
   height: 4vh;
   background-color: var(--black);
   font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.Create-title::placeholder {
+  padding-left: 0.5rem;
 }
 
 .Create-text {
@@ -21,4 +26,10 @@
   background-color: var(--black);
   height: 15vh;
   font-size: 1.1rem;
+  border-radius: 5px;
+}
+
+.Create-text::placeholder {
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
 }

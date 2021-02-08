@@ -1,17 +1,39 @@
+@font-face {
+  font-family: ubuntu;
+  src: url(../fonts/Ubuntu-Light.ttf);
+}
+
+@font-face {
+  font-family: ubuntu_bold;
+  src: url(../fonts/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+  font-family: button_minus;
+  src: url(../fonts/RussoOne-Regular.ttf);
+}
+
+
+
+
 .over {
   color: var(--white);
 }
 
 .over-title {
   font-size: 2rem;
+  font-family: ubuntu_bold;
+
 }
 
 .over-dateTime {
-    font-size: .9rem;
+    font-size: 1.2rem;
 }
 
 .over-text {
     font-size: 1.3rem;
+    text-align: justify;
+    font-family: ubuntu;
 }
 
 .button-delete {
@@ -21,6 +43,8 @@
   bottom: 40px;
   right: 40px;
   border-radius: 100%;
-  background-color: var(--dark-gray);
+  background-color: var(--red);
   color: var(--white);
+  font-family: button_minus;
+  font-size: 2rem;
 }

@@ -1,7 +1,13 @@
+@font-face {
+  font-family: note_font;
+  src: url(../../fonts/Ubuntu-Light.ttf);
+}
 
 .note {
-    width: 100%;
-    background-color: var(--note-blue);
-    border-radius: 5px;
-    padding: .5rem .5rem;
+  width: 100%;
+  background-color: var(--note-blue);
+  border-radius: 5px;
+  padding: 0.5rem 0.5rem;
+  font-family: note_font, sans-serif;
+
 }
