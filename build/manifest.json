@@ -1,16 +1,21 @@
 {
-  "short_name": "Local_Note",
+  "short_name": "local_note",
   "name": "Simples Note App With Local Storage",
   "icons": [
     {
       "src": "icon.png",
       "sizes": "64x64",
       "type": "image/x-icon"
+    },
+    {
+      "src": "icon_144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "start_url": "/Local_Note",
-  "display": "fullscreen",
-  "orientation": "standalone",
+  "display": "standalone",
   "theme_color": "#252525",
   "background_color": "#636363"
 }

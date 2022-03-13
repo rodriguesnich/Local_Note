@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Local_Note/static/css/main.26a8443a.chunk.css",
-    "main.js": "/Local_Note/static/js/main.2615b052.chunk.js",
-    "main.js.map": "/Local_Note/static/js/main.2615b052.chunk.js.map",
+    "main.css": "/Local_Note/static/css/main.57975cb4.chunk.css",
+    "main.js": "/Local_Note/static/js/main.8e872d3a.chunk.js",
+    "main.js.map": "/Local_Note/static/js/main.8e872d3a.chunk.js.map",
     "runtime-main.js": "/Local_Note/static/js/runtime-main.81630f65.js",
     "runtime-main.js.map": "/Local_Note/static/js/runtime-main.81630f65.js.map",
     "static/js/2.8b90237d.chunk.js": "/Local_Note/static/js/2.8b90237d.chunk.js",
     "static/js/2.8b90237d.chunk.js.map": "/Local_Note/static/js/2.8b90237d.chunk.js.map",
     "index.html": "/Local_Note/index.html",
-    "static/css/main.26a8443a.chunk.css.map": "/Local_Note/static/css/main.26a8443a.chunk.css.map",
+    "static/css/main.57975cb4.chunk.css.map": "/Local_Note/static/css/main.57975cb4.chunk.css.map",
     "static/js/2.8b90237d.chunk.js.LICENSE.txt": "/Local_Note/static/js/2.8b90237d.chunk.js.LICENSE.txt",
     "static/media/style.css": "/Local_Note/static/media/OpenSans-Regular.1b0809d5.ttf",
     "static/media/overView.css": "/Local_Note/static/media/Ubuntu-Medium.90c045b7.ttf"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.81630f65.js",
     "static/js/2.8b90237d.chunk.js",
-    "static/css/main.26a8443a.chunk.css",
-    "static/js/main.2615b052.chunk.js"
+    "static/css/main.57975cb4.chunk.css",
+    "static/js/main.8e872d3a.chunk.js"
   ]
 }
